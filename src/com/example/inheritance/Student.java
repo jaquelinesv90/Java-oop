@@ -1,0 +1,38 @@
+package com.example.inheritance;
+
+// sempre veja se o relacionamento é um/ é uma
+// 
+public class Student extends Person{
+	  
+	private String course;
+	private String score;
+	
+	public Student() {
+		
+	}
+
+	public String getCourse() {
+		return course;
+	}
+
+	public void setCourse(String course) {
+		this.course = course;
+	}
+
+	public String getScore() {
+		return score;
+	}
+
+	public void setScore(String score) {
+		this.score = score;
+	}
+	
+	//média
+	public double gradeCalc() {
+		return 0;
+	}
+		
+	public boolean isAproved() {
+		return true;
+	}
+}
