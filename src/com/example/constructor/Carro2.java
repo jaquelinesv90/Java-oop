@@ -2,9 +2,10 @@ package com.example.constructor;
 
 
 //Toda classe tem um construtor simples e vazio
-// por padrão 
+// por padrão;
 // Uma boa prática é sempre que criar um construtor com parametro
-// criar um vazio também,
+// criar um vazio também, pois alguns frameworks necessitam de 
+// um construtor vazio.
 public class Carro2 {
 
 	String marca;  

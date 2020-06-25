@@ -1,4 +1,4 @@
-package com.example.keyWordSuper;
+package com.example.accessModifiers;
 
 public class Person {
 	  
@@ -6,17 +6,6 @@ public class Person {
 	private String address;
 	private String foneNumber;
 	private String id;
-	
-	public Person() {}
-
-	// Como esta classe não extend nenhuma outra classe
-	// o super dela será para a classe Object
-	public Person(String name, String address) {
-		super();
-		this.name = name;
-		this.address = address;
-	}
-	
 	
 	public String getName() {
 		return name;

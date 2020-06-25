@@ -1,11 +1,11 @@
-package com.example.keyWordSuper;
+package com.example.accessModifiers;
 
 public class Teacher extends Person{
-  
+
 	private String salary;
 	private String CourseName;
 	
-
+  
 	public String getSalary() {
 		return salary;
 	}
