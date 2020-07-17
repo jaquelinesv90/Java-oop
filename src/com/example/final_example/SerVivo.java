@@ -1,4 +1,4 @@
-package com.example_final;
+package com.example.final_example;
 
 // final pode ser adicionado:
 // - na classe

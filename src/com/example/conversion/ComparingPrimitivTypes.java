@@ -1,4 +1,4 @@
-package com.example_conversions;
+package com.example.conversion;
 
 public class ComparingPrimitivTypes {
 	
