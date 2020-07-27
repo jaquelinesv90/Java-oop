@@ -62,4 +62,12 @@ public class Vector {
 		
 		return s.toString();
 	}
+	
+	// obter elemento de determinada posição
+	public String search(int position) {
+		if(!(position >= 0 && position < tamanho)) {
+			throw new IllegalArgumentException("Posição inválida");
+		}
+		return elements[position];
+	}
 }
