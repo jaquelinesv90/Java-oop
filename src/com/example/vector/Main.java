@@ -13,6 +13,9 @@ public class Main {
 			
 			System.out.println(vector.tamanho());
 			System.out.println(vector.toString());
+			
+			System.out.println(vector.search("elemento 1"));
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

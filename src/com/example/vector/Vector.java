@@ -63,11 +63,23 @@ public class Vector {
 		return s.toString();
 	}
 	
-	// obter elemento de determinada posição
+	// retorna elemento de determinada posição
 	public String search(int position) {
 		if(!(position >= 0 && position < tamanho)) {
 			throw new IllegalArgumentException("Posição inválida");
 		}
 		return elements[position];
 	}
+	
+	//verificar se o elemento existe no vetor(utilizando algoritmo de busca sequencial)
+	// de posição em posição do vetor verificamos se o elemento é o que estamos procurando
+	public int search(String element) {
+		for(int i=0; i<this.tamanho; i++) {
+			if(this.elements[i].equals(element)) {
+				return i;
+			}
+		}
+		return -1;
+	}
+	
 }
