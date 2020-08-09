@@ -1,7 +1,5 @@
 package com.example.vector;
 
-import java.util.Arrays;
-
 public class Vector {
 
 	private String[] elements;
@@ -41,7 +39,7 @@ public class Vector {
 	}
 	
 	// classe Array é uma classe utilitária que serve para podermos
-	// trabalhar com coleções de objetos(ex. vetores)
+	// trabalhar com coleções de objetos(ex. vetores).
 	// esse método foi gerado automaticamente pelo eclipse
 	// StringBuilder permite criar e manipular Strings
 	@Override

@@ -11,7 +11,7 @@ public class Carro {
 	
 	// Se ja existe um valor padrão para o atributo
 	// é mais elegante adicioná-lo já no construtor
-	// ao invés de instancia-ló el outra classe
+	// ao invés de instancia-ló em outra classe
 	Carro(){
 		System.out.println("Classe Carro foi instanciada");
 		numPassageiros = 4;
