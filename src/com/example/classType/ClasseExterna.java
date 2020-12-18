@@ -10,7 +10,7 @@ package com.example.classType;
  *ocultar classes que só fazem sentido associadas a classe principal.Por
  *exemplo, você vai ter uma classe ListaEncadeada.Toda lista é um conjunto
  *de nós, mas o conjunto de nós só tem sentido para a classe da lista. Então, porque
- *deixar o nó público? A classe Nó poderia se interna privada da lista.
+ *deixar o nó público? A classe Nó poderia ser interna privada da lista.
  */
 public class ClasseExterna {
 	
@@ -25,8 +25,5 @@ public class ClasseExterna {
 		public void imprimir(){
 			System.out.print(valor);
 		}
-		
 	}
-	
-
 }
