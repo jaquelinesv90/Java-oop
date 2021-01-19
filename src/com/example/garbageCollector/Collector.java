@@ -1,5 +1,6 @@
 package com.example.garbageCollector;
 
+// classe incompleta
 public class Collector {
 	
 	public static void getUsedMemory() {
