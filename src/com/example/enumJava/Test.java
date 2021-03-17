@@ -2,10 +2,12 @@ package com.example.enumJava;
 
 public class Test {
 	
-	// foram criadas duas classes uma de constantes e outra de enum
-	// ambas fazem a mesma coisa mas de formas diferentes
-	
-	
+	/* foram criadas duas classes uma de constantes e outra de enum
+	* ambas fazem a mesma coisa mas de formas diferentes.
+	* Enums são muito mais que constantes eles possuem funcionalidades
+	* extras que podem deixar nosso projeto muito mais elegante e com 
+	* um controle maior para o desenvolvedor.
+	* */
 	public static void main(String[] args) {
 		constantUsing();
 		EnumUsing();
