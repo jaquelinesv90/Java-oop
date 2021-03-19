@@ -1,6 +1,6 @@
 package com.example.enumJava;
 
-public class Test {
+public class Main {
 	
 	/* foram criadas duas classes uma de constantes e outra de enum
 	* ambas fazem a mesma coisa mas de formas diferentes.
