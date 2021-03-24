@@ -6,9 +6,10 @@ import static java.lang.Math.*;
 /* Exemplo de import static adicionado acima, é utilizado
  * quando necessitamos chamar vários métodos de uma mesma classe.
  * 
- * Todos os métodos da classe Math são estáticos,ou seja,
+ * Todos os métodos da classe Math são estáticos, ou seja,
  * não precisamos instanciar a classe Math para utilizar.
  * 
+ * Método é um bloco de código aninhado a classe
  */
 public class StaticImport {
 	
