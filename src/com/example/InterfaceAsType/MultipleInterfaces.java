@@ -4,7 +4,7 @@ package com.example.InterfaceAsType;
  * a classe deve implementar todos os métodos declarados em todas as
  * interfaces implementadas. 
  */
-public class MultilpeInterfaces implements MyInterface,MyOtherInterface{
+public class MultipleInterfaces implements MyInterface,MyOtherInterface{
 
 	@Override
 	public void sayGoodBye() {
